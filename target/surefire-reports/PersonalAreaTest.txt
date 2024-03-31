@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: PersonalAreaTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.709 s <<< FAILURE! - in PersonalAreaTest
+personalAreaButtonWithAuthUser(PersonalAreaTest)  Time elapsed: 0.776 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'KOLDYPC', ip: '192.168.1.34'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+
+personalAreaButtonWithAuthUser(PersonalAreaTest)  Time elapsed: 0.776 s  <<< ERROR!
+java.lang.NullPointerException
+
+exitFromLk(PersonalAreaTest)  Time elapsed: 0.93 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 123.0.6312.86 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'KOLDYPC', ip: '192.168.1.34'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+
+exitFromLk(PersonalAreaTest)  Time elapsed: 0.931 s  <<< ERROR!
+java.lang.NullPointerException
+
